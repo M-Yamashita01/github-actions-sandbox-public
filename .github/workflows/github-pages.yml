@@ -9,7 +9,7 @@ jobs:
     steps:
       - run: |
           mkdir data
-          echo "<h1>Hello GitHub Pages!</h1>" > data/index.html          
+          echo "<h1>Hello GitHub Pages! Second</h1>" > data/index.html          
       - uses: actions/upload-artifact@v3
         with:
           name: my_site
